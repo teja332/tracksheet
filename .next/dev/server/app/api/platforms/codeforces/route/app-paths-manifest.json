@@ -1,0 +1,3 @@
+{
+  "/api/platforms/codeforces/route": "app/api/platforms/codeforces/route.js"
+}

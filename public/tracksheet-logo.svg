@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#bgGradient)" filter="url(#shadow)"/>
+  
+  <!-- Sheet/Document base -->
+  <rect x="45" y="50" width="110" height="100" fill="white" opacity="0.95" rx="8"/>
+  
+  <!-- Sheet lines (representing a tracking sheet) -->
+  <line x1="55" y1="65" x2="145" y2="65" stroke="rgba(15, 23, 42, 0.1)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="80" x2="145" y2="80" stroke="rgba(15, 23, 42, 0.1)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="95" x2="145" y2="95" stroke="rgba(15, 23, 42, 0.1)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="110" x2="145" y2="110" stroke="rgba(15, 23, 42, 0.1)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="55" y1="125" x2="145" y2="125" stroke="rgba(15, 23, 42, 0.1)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Upward trending chart bars (representing performance improvement) -->
+  <g fill="url(#bgGradient)">
+    <!-- Bar 1 -->
+    <rect x="62" y="110" width="10" height="20" rx="2"/>
+    <!-- Bar 2 -->
+    <rect x="78" y="95" width="10" height="35" rx="2"/>
+    <!-- Bar 3 -->
+    <rect x="94" y="75" width="10" height="55" rx="2"/>
+    <!-- Bar 4 -->
+    <rect x="110" y="60" width="10" height="70" rx="2"/>
+    <!-- Bar 5 -->
+    <rect x="126" y="50" width="10" height="80" rx="2"/>
+  </g>
+  
+  <!-- Checkmark overlay (representing tracked/verified) -->
+  <g stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 155 70 L 160 75 L 168 65" opacity="0.9" filter="url(#shadow)"/>
+  </g>
+</svg>

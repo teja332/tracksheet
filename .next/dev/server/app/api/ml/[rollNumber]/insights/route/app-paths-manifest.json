@@ -1,0 +1,3 @@
+{
+  "/api/ml/[rollNumber]/insights/route": "app/api/ml/[rollNumber]/insights/route.js"
+}

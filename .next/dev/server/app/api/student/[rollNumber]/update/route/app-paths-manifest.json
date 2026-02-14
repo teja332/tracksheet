@@ -1,0 +1,3 @@
+{
+  "/api/student/[rollNumber]/update/route": "app/api/student/[rollNumber]/update/route.js"
+}

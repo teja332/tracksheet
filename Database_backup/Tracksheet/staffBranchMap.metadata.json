@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"40af37b2277b4736913f1d1293fdb30a","collectionName":"staffBranchMap","type":"collection"}

@@ -1,0 +1,14 @@
+{
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/api/me/route": "app/api/me/route.js",
+  "/api/ml/[rollNumber]/insights/route": "app/api/ml/[rollNumber]/insights/route.js",
+  "/api/platforms/codechef/route": "app/api/platforms/codechef/route.js",
+  "/api/platforms/codeforces/route": "app/api/platforms/codeforces/route.js",
+  "/api/platforms/hackerrank/route": "app/api/platforms/hackerrank/route.js",
+  "/api/platforms/leetcode/route": "app/api/platforms/leetcode/route.js",
+  "/api/student/[rollNumber]/route": "app/api/student/[rollNumber]/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/student/page": "app/student/page.js"
+}
