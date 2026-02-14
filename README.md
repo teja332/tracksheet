@@ -119,19 +119,6 @@ Logins:
 - Student password: `student123`
 - Staff password: `staff123`
 
-## Optional scripts
-- Seed app data:
-
-```
-npm run seed
-```
-
-- Seed ML data:
-
-```
-npm run seed:ml
-```
-
 ## Troubleshooting
 - If MongoDB does not connect, confirm `mongod` is running and the URI is `mongodb://localhost:27017`.
 - If the ML service fails, ensure the virtual environment is activated and dependencies are installed.
