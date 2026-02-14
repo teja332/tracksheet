@@ -1,0 +1,63 @@
+Requirements to install:
+Install python 3.12 version from Microsoft store:
+https://apps.microsoft.com/detail/9NCVDN91XZQP?hl=en-us&gl=IN&ocid=pdpshare
+Download and Install MongoDB community edition:
+https://www.mongodb.com/try/download/community
+Open MongoDB compass don’t close application
+create a new connection with desired name make sure that URI should be mongodb://localhost:27017 and then connect and save
+Use mongodump for data base loading locally:
+visit : https://www.mongodb.com/try/download/database-tools
+MongoDB Command Line Database Tools Download (download .msi package)
+install the package and
+add bin location to the environment variables path.
+Open your system's command prompt or terminal (not the mongosh shell).
+Navigate to your MongoDB installation's bin directory if it's not in your system's PATH.
+(e.g., cd C:\Program Files\MongoDB\Server\<version>\bin on Windows).
+Use this command for restoring or loading the database to your local DB:
+mongorestore --db=your_newdb_name(Tracksheet) your original db location
+(eg: C:\Users\Tejab\Desktop\Tracksheet)
+Open Visual Studio Code using project folder:
+# Check Node.js (Required: v18+)
+node --version
+# Check Python (Required: 3.12)
+python –version
+ignore if it is showing other than 3.12, if you installed python 3.12 from Microsoft store already
+# Check pnpm
+pnpm –version
+Install all packages
+pnpm install
+or
+npm install
+# Create virtual environment with Python 3.12
+py -3.12 -m venv .venv
+# Activate virtual environment
+.\.venv\Scripts\activate
+# Install Python ML dependencies
+pip install -r ml-service\requirements.txt
+# Create new environment file (if not exists)
+File name: “.env.local” on root folder
+Inside the file:
+MONGODB_URI=mongodb://localhost:27017/your_db_name
+JWT_SECRET=your-super-secret-jwt-key-change-in-production (ask chatgpt for jwt secret key generation)
+JWT_EXPIRES_IN="1h"
+ML_SERVICE_URL=http://localhost:8001
+Start backend ML services: inside the vs code terminal
+# Start ML service on port 8001
+.\start-ml-service.ps1
+Expected Output:
+INFO: Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO: Started reloader process [XXXX] using StatReload
+INFO: Application startup complete.
+Start Frontend services: use another terminal inside the vs code
+# Start Next.js dev server
+npm run dev
+Expected Output:
+> dev
+> next dev
+○ Compiling / ...
+✓ Compiled / in XXXms
+✓ Ready on http://localhost:3000
+Access the website:
+Open Your Browser
+Navigate to: http://localhost:3000
+Password: for student: student123 		for staff: staff123
