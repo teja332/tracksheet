@@ -116,8 +116,33 @@ Open your browser:
 - http://localhost:3000
 
 Logins:
+- for login credentials use : these usernames
+    aarav.sharma01@example.com
+    isha.verma02@example.com
+    rohan.gupta03@example.com
+    sneha.nair04@example.com
+    vikram.singh05@example.com
+    priya.iyer06@example.com
+    aditya.rao07@example.com
+    meera.das08@example.com
+    karan.patel09@example.com
+    ananya.bose10@example.com
+    rahul.jain11@example.com
+    nisha.kapoor12@example.com
+    siddharth.menon13@example.com
+    tanvi.kulkarni14@example.com
+    arjun.mehta15@example.com
+    pooja.reddy16@example.com
+    neel.chakraborty17@example.com
+    kavya.joshi18@example.com
+    om.prakash19@example.com
+    simran.kaur20@example.com
+    dev.patel21@example.com
+    aditi.roy22@example.com
+    yash.malhotra23@example.com
+    
 - Student password: `student123`
-- Staff password: `staff123`
+- Staff password: `staff01@tracksheet.edu` to `staff10@tracksheet.edu` `staff123`
 
 ## Troubleshooting
 - If MongoDB does not connect, confirm `mongod` is running and the URI is `mongodb://localhost:27017`.
