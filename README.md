@@ -142,7 +142,7 @@ Logins:
     yash.malhotra23@example.com
     
 - Student password: `student123`
-- Staff password: `staff01@tracksheet.edu` to `staff10@tracksheet.edu` `staff123`
+- Staff user_name and password: `staff01@tracksheet.edu` to `staff10@tracksheet.edu` `staff123`
 
 ## Troubleshooting
 - If MongoDB does not connect, confirm `mongod` is running and the URI is `mongodb://localhost:27017`.
